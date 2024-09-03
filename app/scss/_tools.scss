@@ -1,0 +1,151 @@
+.tools{
+  width: 1920px;
+
+  &__inner{
+    display: block;
+    width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  &__title{
+    display: block;
+    width: 447px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.045em;
+    color: #000000;
+  }
+
+  &__wrap{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img{
+    width: 587px;
+    height: 624px;
+    margin-right: 150px;
+  }
+
+  &__group{
+    width: 610px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  &__box{
+    display: block;
+    width: 610px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 60px;
+  }
+
+  &__subtitle{
+    display: flex;
+    width: 624px;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    color: #017B65;
+  }
+
+  &__dot{
+    width: 93px;
+    height: 56px;
+    padding-top: 13px;
+    text-align: center;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+
+    color: #000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    position: absolute;
+    top: 15px;
+    left: -125px;
+  }
+
+  &__dot_active{
+    color: #fff;
+    background: #29A28C;
+    border: 1px solid #29A28C;
+  }
+
+  &__text{
+    text-align: left;
+    padding: 20px;
+    border-top: none;
+    display: none;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  &__btn{
+    display: block;
+    width: 267.5px;
+    margin-top: 56px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    color: #fff;
+    background: #000000;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+
+    text-decoration: none;
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+  }
+
+  &__arrow{
+    display: block;
+    width: 26px;
+    height: 13px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  &__arrow_active.tools__arrow{
+    transform: rotate(180deg);
+  }
+}
+
+.accordion-item_active .accordion-item__content{
+  display: block;
+}

@@ -1,0 +1,48 @@
+.header{
+  width: 192rem;
+
+  &__wrap{
+    display: block;
+    width: 160rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    background: rgba(41, 162, 140, 0.11);
+  }
+
+  &__group{
+    width: 160rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__logo{
+    display: block;
+    width: 27rem;
+    height: 5.2rem;
+  }
+
+  &__navigation{
+    display: block;
+    width: 89rem;
+  }
+
+  &__list{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item{
+    list-style: none;
+
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
